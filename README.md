@@ -12,7 +12,7 @@ Este guia detalha a implementação de um servidor OpenVPN profissional em ambie
 ---
 
 ## 📋 1. Pré-requisitos
-- **Internet:** IP público fixo ou se for IP dinâmico, usar algum tipo de DDNS (ex.: duckdns.org), nesse caso, verificar com seu ISP, talvez seja necessário solicitar liberação.
+- **Internet:** IP público fixo ou DDNS (ex: duckdns.org). Se usar DDNS, verifique liberação de portas com o ISP (CGNAT pode bloquear).
 - **Servidor:** Windows Server 2016/2019/2022 (IP LAN Fixo, ex: `192.168.0.253`).
 - **Cliente:** Windows 10/11.
 - **Software:** [OpenVPN Community Edition 2.6.x](https://openvpn.net/community-downloads/).
