@@ -297,6 +297,8 @@ Write-Host "------------------------------------------------"
 powershell .\gerar_cliente_inline.ps1
 ```
 
+---
+
 ## 🔧 8. Configuração de Acesso por Nome (Arquivo Hosts)
 Como a VPN não propaga nomes NetBIOS automaticamente, para acessar o servidor pelo nome (ex: \\nome-servidor) em vez do IP (\\ip-servidor), siga estes passos no computador do cliente:
 
